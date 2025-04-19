@@ -1,0 +1,21 @@
+<resources>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#4CAF50</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="OperatorButtonStyle" parent="ButtonStyle">
+        <item name="android:backgroundTint">#FF9800</item>
+    </style>
+
+    <style name="SpecialButtonStyle" parent="ButtonStyle">
+        <item name="android:backgroundTint">#9E9E9E</item>
+    </style>
+</resources>

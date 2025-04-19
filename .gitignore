@@ -1,0 +1,16 @@
+# Ignore Android Studio junk
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Ignore build folders everywhere
+**/build/
+**/.gradle/
+**/.idea/
+**/captures/
+**/.externalNativeBuild/
+
+# Others
+*.apk
+.DS_Store
